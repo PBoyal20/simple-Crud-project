@@ -1,0 +1,73 @@
+/* Apply some basic styles to the page */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav {
+    background-color: black;
+    overflow: hidden;
+  }
+
+    nav a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-top: 50px;
+      }
+      
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      
+      p {
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+      }
+      
