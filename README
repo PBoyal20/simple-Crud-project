@@ -1,0 +1,44 @@
+# CRUD Webpage
+
+This is a CRUD (Create, Read, Update, Delete) webpage that allows users to perform basic database operations using PHP, HTML, and MySQL. The webpage provides functionality for registering, logging in, and logging out. Once logged in, users can insert, search, update, and delete items from the database.
+
+## Prerequisites
+
+To run this webpage, you need to have the following software installed:
+
+- Apache web server
+- PHP
+- MySQL server
+
+Make sure these components are properly installed and configured on your system before proceeding.
+
+## Installation
+
+1. Clone the repository to your local machine or download the ZIP file and extract it.
+2. Move the contents of the repository to your web server's document root directory (e.g., `htdocs` for Apache).
+3. Create a MySQL database for the webpage. You can use phpMyAdmin or any other MySQL client to do this.
+4. Import the `courseproject.sql` file into your newly created database. This file contains the necessary table structure for the webpage.
+5. Update the database connection settings in the PHP files located in the `config` directory. Modify the values of `DB_HOST`, `DB_NAME`, `DB_USER`, and `DB_PASSWORD` to match your MySQL configuration.
+
+## Usage
+
+1. Open a web browser and navigate to the homepage of the webpage (e.g., `http://localhost`).
+2. Register a new account by clicking on the "Register" link and providing a username and password.
+3. Log in using your registered credentials on the login page.
+4. Once logged in, you will be able to access the "Insert Item," "Search Item," "Update Item," and "Delete Item" pages.
+5. Use these pages to perform CRUD operations on the database.
+6. To log out, click on the "Logout" link.
+
+## Technologies Used
+
+- HTML: Markup language used for creating the webpage's structure.
+- PHP: Server-side scripting language used for dynamic functionality and database interaction.
+- MySQL: Relational database management system used for storing and retrieving data.
+- Apache: Web server software responsible for serving the webpage to clients.
+- PDO: PHP Data Objects, an extension used for connecting to and interacting with databases in a secure manner.
+
+## Credits
+
+This webpage was created by Prabhi Boyal. You can contact me at pboyal20@gmail.com for any questions or inquiries.
+
+
